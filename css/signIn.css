@@ -1,0 +1,28 @@
+﻿.ui-dialog-titlebar-close {display:none} /*交談窗元件內建 X 關閉鈕的類別名稱,設定不顯示關閉鈕*/
+			#account,#passwd,#account2,#passwd2,#email,#tel,#name,#check{
+				background-color:#fcf394
+			}
+			.ui-dialog .ui-dialog-buttonpane { /* dialog button div background*/
+				text-align: left;
+				border-width: 1px 0 0 0 #a4d1f2;
+				border-color: #a4d1f2;
+				background-image: none;
+				margin-top: .5em;
+				padding: .3em 1em .5em .4em;
+				background:#e3f2fd;
+			}
+			.ui-dialog .ui-dialog-buttonpane button {  /* dialog button */
+				margin: .5em .4em .5em 0;
+				cursor: pointer;
+				background:#e3f2fd;
+			}
+			.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {  /* dialog button background*/
+				float: right;
+				background:#e3f2fd;
+			}
+			.ui-widget-header,.ui-state-default, ui-button{ /* dialog title style*/
+            background:#e3f2fd;
+			border: 1px solid #a4d1f2;
+            color: #000000;
+         }
+		 .nav-link{ cursor: pointer; }
